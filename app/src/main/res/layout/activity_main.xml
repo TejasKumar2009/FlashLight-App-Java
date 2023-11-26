@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000509"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flash Light Turn ON/OFF"
+        android:textColor="#FFF"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/autoflashbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#AF0202"
+        android:text="Enable Auto-Flashlight"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/btn_on_off"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/on" />
+
+
+
+</LinearLayout>
